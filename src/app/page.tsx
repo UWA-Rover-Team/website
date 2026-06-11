@@ -7,6 +7,7 @@ import Achievements from '@/components/Achievements';
 import Sponsors from '@/components/Sponsors';
 import SponsorshipTiers from '@/components/SponsorshipTiers';
 import Team from '@/components/Team';
+import Recruitment from '@/components/Recruitment';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Sponsors />
       <SponsorshipTiers />
       <Team />
+      <Recruitment />
       <Footer />
     </main>
   );
