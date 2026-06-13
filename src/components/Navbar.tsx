@@ -86,9 +86,9 @@ export default function Navbar() {
           <Image
             src="/logos/header-dark.png"
             alt="UWA Rover Project"
-            width={280}
-            height={112}
-            className="h-20 w-auto md:h-24"
+            width={220}
+            height={88}
+            className="h-12 w-auto md:h-16"
             priority
           />
         </a>
