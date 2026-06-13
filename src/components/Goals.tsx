@@ -4,7 +4,7 @@ const goals = [
   {
     number: '01',
     title: 'R&D Hub for Space Technologies',
-    body: 'We aim to establish WARP as UWA\'s premier research and development hub for space-related technologies — incubating innovations in autonomous robotics, life detection systems, and planetary surface operations that have real-world applications beyond the competition floor.',
+    body: 'We aim to establish WARP as UWA\'s leading R&D hub for space robotics and automation — developing next-generation autonomous systems, robotic manipulators, and machine-vision pipelines that advance the frontier of how robots operate in unstructured, off-world environments.',
     accent: 'border-blue-500',
     badge: 'bg-blue-500/10 text-blue-600 dark:text-blue-400',
   },
