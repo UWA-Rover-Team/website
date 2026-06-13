@@ -35,9 +35,9 @@ export default function Footer() {
             <Image
               src="/logos/header-dark.png"
               alt="UWA Rover Project"
-              width={200}
-              height={80}
-              className="h-14 w-auto md:h-16"
+              width={280}
+              height={112}
+              className="h-20 w-auto md:h-24"
             />
             <p className="mt-4 max-w-sm text-body-sm text-white/60">
               The Western Australian Rover Project — a student engineering
