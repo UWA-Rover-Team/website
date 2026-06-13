@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Goals from '@/components/Goals';
 import RoverFeatures from '@/components/RoverFeatures';
 import Competition from '@/components/Competition';
 import Achievements from '@/components/Achievements';
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Goals />
       <RoverFeatures />
       <Competition />
       <Achievements />

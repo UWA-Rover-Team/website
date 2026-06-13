@@ -43,8 +43,8 @@ export default function About() {
               </div>
             ))}
             <p className="border-l-2 border-accent pl-4 text-body-sm text-muted">
-              Supported by the UWA School of Engineering and Innovation,
-              Science and Creativity (ISC).
+              Supported by the UWA School of Engineering and the
+              International Space Centre (ISC).
             </p>
           </Reveal>
 
