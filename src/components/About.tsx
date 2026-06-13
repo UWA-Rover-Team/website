@@ -50,7 +50,7 @@ export default function About() {
 
           <Reveal delay={150} className="overflow-hidden rounded-lg border border-line">
             <Image
-              src="/images/DSC_0731.JPG"
+              src="/images/team-pic.jpg"
               alt="WARP team members operating the rover from the control station"
               width={968}
               height={648}

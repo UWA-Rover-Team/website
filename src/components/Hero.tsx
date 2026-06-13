@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="hero" className="relative flex min-h-svh items-center bg-shell">
       <Image
-        src="/images/DSC_0673.JPG"
+        src="/images/rover-hero.jpg"
         alt="The WARP rover on the competition pad"
         fill
         className="object-cover"
