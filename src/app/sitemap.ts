@@ -5,15 +5,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://wa-roverproject.com',
       lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 1,
-    },
-    {
-      url: 'https://wa-roverproject.com/about',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://wa-roverproject.com/team',
-      lastModified: new Date(),
     },
   ]
 }
