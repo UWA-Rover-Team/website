@@ -28,11 +28,6 @@ const sponsors = [
     src: '/logos/sponsors/jlcpcb.png',
     darkBg: false,
   },
-  {
-    name: 'TechWorks — Woodside FutureLab',
-    src: '/logos/sponsors/techworks.png',
-    darkBg: false,
-  },
 ];
 
 export default function Sponsors() {
