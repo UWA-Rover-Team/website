@@ -20,7 +20,8 @@ const sponsors = [
   {
     name: 'Altronics',
     src: '/logos/sponsors/altronics.png',
-    darkBg: false,
+    darkBg: true,
+    darkColor: '#1a0000',
   },
   {
     name: 'JLCPCB',
@@ -28,9 +29,10 @@ const sponsors = [
     darkBg: false,
   },
   {
-    name: 'TechWorks',
-    src: null,
-    darkBg: false,
+    name: 'TechWorks — Woodside FutureLab',
+    src: '/logos/sponsors/techworks.png',
+    darkBg: true,
+    darkColor: '#00555a',
   },
 ];
 
