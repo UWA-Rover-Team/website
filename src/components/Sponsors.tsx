@@ -1,6 +1,38 @@
 import Reveal from './Reveal';
 
-const sponsors = ['UWA', 'ISC', 'DOF Subsea', 'TechWorks', 'Altronics'];
+const sponsors = [
+  {
+    name: 'University of Western Australia',
+    src: '/logos/sponsors/uwa-white.svg',
+    darkBg: true,
+    darkColor: '#003087',
+  },
+  {
+    name: 'International Space Centre',
+    src: '/logos/sponsors/isc.png',
+    darkBg: true,
+  },
+  {
+    name: 'DOF Subsea',
+    src: '/logos/sponsors/dof-subsea.svg',
+    darkBg: false,
+  },
+  {
+    name: 'Altronics',
+    src: '/logos/sponsors/altronics.png',
+    darkBg: false,
+  },
+  {
+    name: 'JLCPCB',
+    src: '/logos/sponsors/jlcpcb.png',
+    darkBg: false,
+  },
+  {
+    name: 'TechWorks',
+    src: null,
+    darkBg: false,
+  },
+];
 
 export default function Sponsors() {
   return (
@@ -16,13 +48,27 @@ export default function Sponsors() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
           {sponsors.map((sponsor, i) => (
-            <Reveal key={sponsor} delay={i * 75} className="h-full">
-              <div className="flex h-full min-h-24 items-center justify-center rounded-lg border border-line bg-subtle p-6">
-                <p className="text-center text-body font-semibold text-muted">
-                  {sponsor}
-                </p>
+            <Reveal key={sponsor.name} delay={i * 75} className="h-full">
+              <div
+                className="flex h-full min-h-28 flex-col items-center justify-center rounded-lg border border-line p-6 shadow-sm dark:border-white/10"
+                style={{ backgroundColor: sponsor.darkBg ? (sponsor.darkColor ?? '#0a1628') : '#ffffff' }}
+              >
+                {sponsor.src ? (
+                  <div style={{ height: '48px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={sponsor.src}
+                      alt={sponsor.name}
+                      style={{ height: '44px', width: 'auto', maxWidth: '100%' }}
+                    />
+                  </div>
+                ) : (
+                  <p className="text-center text-body font-semibold text-gray-700">
+                    {sponsor.name}
+                  </p>
+                )}
               </div>
             </Reveal>
           ))}
