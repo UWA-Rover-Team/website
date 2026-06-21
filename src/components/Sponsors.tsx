@@ -19,9 +19,8 @@ const sponsors = [
   },
   {
     name: 'Altronics',
-    src: '/logos/sponsors/altronics.png',
-    darkBg: true,
-    darkColor: '#000000',
+    src: '/logos/sponsors/altronics-black.jpg',
+    darkBg: false,
   },
   {
     name: 'JLCPCB',
