@@ -6,7 +6,6 @@ import RoverFeatures from '@/components/RoverFeatures';
 import Competition from '@/components/Competition';
 import Achievements from '@/components/Achievements';
 import Sponsors from '@/components/Sponsors';
-import SponsorshipTiers from '@/components/SponsorshipTiers';
 import Team from '@/components/Team';
 import Recruitment from '@/components/Recruitment';
 import Footer from '@/components/Footer';
@@ -22,7 +21,6 @@ export default function Home() {
       <Competition />
       <Achievements />
       <Sponsors />
-      <SponsorshipTiers />
       <Team />
       <Recruitment />
       <Footer />

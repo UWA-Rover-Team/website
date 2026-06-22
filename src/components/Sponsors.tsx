@@ -19,7 +19,7 @@ const sponsors = [
   },
   {
     name: 'Altronics',
-    src: '/logos/sponsors/altronics-black.jpg',
+    src: '/logos/sponsors/altronics-black.png',
     darkBg: false,
   },
   {
