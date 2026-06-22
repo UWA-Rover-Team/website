@@ -51,12 +51,12 @@ export default function Sponsors() {
                 style={{ backgroundColor: sponsor.darkBg ? (sponsor.darkColor ?? '#0a1628') : '#ffffff' }}
               >
                 {sponsor.src ? (
-                  <div style={{ height: '48px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
+                  <div style={{ height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={sponsor.src}
                       alt={sponsor.name}
-                      style={{ height: '44px', width: 'auto', maxWidth: '100%' }}
+                      style={{ height: '60px', width: 'auto', maxWidth: '100%' }}
                     />
                   </div>
                 ) : (
