@@ -29,7 +29,7 @@ export default function Hero() {
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="#sponsorship"
+              href="#sponsors"
               className="rounded-md bg-primary px-6 py-3 text-center text-body font-semibold text-white transition-colors hover:bg-primary-dark"
             >
               Become a Sponsor

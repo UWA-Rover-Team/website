@@ -81,10 +81,10 @@ export default function Sponsors() {
                 </p>
               </div>
               <a
-                href="#sponsorship"
+                href="mailto:admin@rover.uwarobotics.com.au"
                 className="shrink-0 rounded-md bg-primary px-6 py-3 text-body font-semibold text-white transition-colors hover:bg-primary-dark"
               >
-                View Sponsorship Tiers
+                Get in Touch
               </a>
             </div>
           </div>
