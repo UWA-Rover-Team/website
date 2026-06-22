@@ -59,16 +59,6 @@ export default function Footer() {
                   admin@rover.uwarobotics.com.au
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://rover.uwarobotics.com.au"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/60 transition-colors hover:text-white"
-                >
-                  rover.uwarobotics.com.au
-                </a>
-              </li>
             </ul>
           </div>
 
