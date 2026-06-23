@@ -53,7 +53,7 @@ export default function Sponsors() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4 lg:grid-cols-7">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
           {sponsors.map((sponsor, i) => (
             <Reveal key={sponsor.name} delay={i * 75} className="h-full">
               <div
