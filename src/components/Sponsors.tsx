@@ -53,9 +53,9 @@ export default function Sponsors() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
+        <div className="flex flex-wrap justify-center gap-6">
           {sponsors.map((sponsor, i) => (
-            <Reveal key={sponsor.name} delay={i * 75} className="h-full">
+            <Reveal key={sponsor.name} delay={i * 75} className="w-[calc(50%-12px)] sm:w-[calc(25%-18px)]">
               <div
                 className="flex h-full min-h-28 flex-col items-center justify-center rounded-lg border border-line p-6 shadow-sm dark:border-white/10"
                 style={{ backgroundColor: sponsor.darkBg ? (sponsor.darkColor ?? '#0a1628') : '#ffffff' }}
