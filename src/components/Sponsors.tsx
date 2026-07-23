@@ -33,6 +33,11 @@ const sponsors = [
     darkBg: false,
   },
   {
+    name: 'UWA Data Institute',
+    src: '/logos/sponsors/uwadi.png',
+    darkBg: false,
+  },
+  {
     name: 'BeamNG',
     src: '/logos/sponsors/beamng.png',
     darkBg: false,
