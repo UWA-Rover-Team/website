@@ -32,6 +32,11 @@ const sponsors = [
     src: '/logos/sponsors/uwadi.png',
     darkBg: false,
   },
+  {
+    name: 'CWG Project Services',
+    src: '/logos/sponsors/cwg-projects.png',
+    darkBg: false,
+  },
 ];
 
 export default function Sponsors() {
