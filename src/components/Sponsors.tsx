@@ -23,11 +23,6 @@ const sponsors = [
     darkBg: false,
   },
   {
-    name: 'JLCPCB',
-    src: '/logos/sponsors/jlcpcb.svg',
-    darkBg: false,
-  },
-  {
     name: 'SolidWorks',
     src: '/logos/sponsors/solidworks.svg',
     darkBg: false,
@@ -35,11 +30,6 @@ const sponsors = [
   {
     name: 'UWA Data Institute',
     src: '/logos/sponsors/uwadi.png',
-    darkBg: false,
-  },
-  {
-    name: 'BeamNG',
-    src: '/logos/sponsors/beamng.png',
     darkBg: false,
   },
 ];
