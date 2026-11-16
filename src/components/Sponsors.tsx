@@ -37,6 +37,16 @@ const sponsors = [
     src: '/logos/sponsors/cwg-projects.png',
     darkBg: false,
   },
+  {
+    name: 'AVI',
+    src: '/logos/sponsors/avi.png',
+    darkBg: false,
+  },
+  {
+    name: 'JLCPCB',
+    src: '/logos/sponsors/jlcpcb.svg',
+    darkBg: false,
+  },
 ];
 
 export default function Sponsors() {
