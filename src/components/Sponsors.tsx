@@ -43,9 +43,10 @@ const sponsors = [
     darkBg: false,
   },
   {
-    name: 'JLCPCB',
-    src: '/logos/sponsors/jlcpcb.svg',
+    name: 'JLCPCB and EasyEDA',
+    src: '/logos/sponsors/jlcpcb-easyeda.svg',
     darkBg: false,
+    wide: true,
   },
 ];
 
@@ -65,7 +66,11 @@ export default function Sponsors() {
 
         <div className="flex flex-wrap justify-center gap-6">
           {sponsors.map((sponsor, i) => (
-            <Reveal key={sponsor.name} delay={i * 75} className="w-[calc(50%-12px)] sm:w-[calc(25%-18px)]">
+            <Reveal
+              key={sponsor.name}
+              delay={i * 75}
+              className={sponsor.wide ? 'w-full sm:w-[calc(50%-12px)]' : 'w-[calc(50%-12px)] sm:w-[calc(25%-18px)]'}
+            >
               <div
                 className="flex h-full min-h-28 flex-col items-center justify-center rounded-lg border border-line p-6 shadow-sm dark:border-white/10"
                 style={{ backgroundColor: sponsor.darkBg ? (sponsor.darkColor ?? '#0a1628') : '#ffffff' }}
