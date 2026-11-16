@@ -13,11 +13,6 @@ const sponsors = [
     darkBg: true,
   },
   {
-    name: 'DOF Subsea',
-    src: '/logos/sponsors/dof-subsea.svg',
-    darkBg: false,
-  },
-  {
     name: 'Altronics',
     src: '/logos/sponsors/Altronics_logo.png',
     darkBg: false,
